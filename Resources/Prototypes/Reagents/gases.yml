@@ -204,7 +204,7 @@
         ignoreResistances: true
         damage:
           types:
-            Poison:
+            Asphyxiation: # Your body doesn't react like it does with a toxin to carbon dioxide, it should probably be lower then this.
               0.8
       - !type:Oxygenate # carbon dioxide displaces oxygen from the bloodstream, causing asphyxiation
         conditions:
